@@ -1,0 +1,165 @@
+
+body {
+/*  background-image: url("bkgrndblueflower2.jpg");
+  background-image: url("bkgrndblue.jpg");
+  background-image: url("bkgrndgreenarabesque.png");
+*/  background-image: url("bkgrndgreenyellow.jpg");
+/*  background-image: url("bkgrndyellowpolygon.jpg");
+*/
+  font-family: helvetica, sans-serif;
+  margin: 0;
+}
+
+img {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.top-of-page {
+  background-color: black;
+  height: 90px;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  margin-top: 0;
+  height: 15-px;
+  background-color: black;
+  z-index: 1;
+}
+
+main {
+  padding-top: 170px;
+  width: 100%;
+}
+
+h1 {
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 40px;
+  letter-spacing: 3px;
+  line-height: 20px;
+}
+
+nav {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 40px;
+  padding: 0;
+  height: 20px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: lightblue;
+  background-color: blue;
+}
+
+.picture {
+  width: 250px;
+}
+
+.left-column {
+  float: left;
+  width: 30%;
+  padding-left: 40px;
+  padding-right: 6px;
+  margin-right: auto;
+/*  margin-right: 20px*/;
+}
+
+.middle-column {
+  float: left;
+  width: 30%;
+  padding-right: 6px;
+  margin-right: auto;
+/*  margin-right: 20px;
+*/}
+
+.right-column {
+  float: left;
+  width: 30%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  clear: both;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 25px;
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+footer a {
+  color: white;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+footer a:hover {
+  color: white;
+  background-color: blue;
+}
+
+
+@media all and (max-width: 840px) and (min-width: 400px){
+ .middle-column{
+  float: none;
+  margin-left: 40px;
+  }
+
+}
+@media all and (max-width: 860px) and (min-width: 481px){
+ .right-column{
+  float: none;
+  margin-left: 40px;
+  }
+
+}
+
+@media all and (max-width: 480px) {
+  .left-column{
+    float: none;
+  }
+ .middle-column{
+    float: none;
+  }
+ .right-column{
+    float: none;
+  }
+}
+
